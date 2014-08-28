@@ -19,7 +19,7 @@ define([
 			},
 			onFailure: function(response){
 				console.log(response.message);
-				app.alert('Invalid username or password! <br>#DEMO# username: <b>admin</b> password: <b>secret</b>');
+				app.alert('Invalid username or password!');
 			}
 		});
 	});
